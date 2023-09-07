@@ -38,4 +38,4 @@ package-lock.json
 postcss.config.js
 .gitignore
 webpack.config.js
-.gitignore
+/.vscode
