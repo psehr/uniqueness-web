@@ -1,3 +1,3 @@
-uniqeness-web
+uniqueness-web
 
 The browser-facing portion of uniqueness-rating.
