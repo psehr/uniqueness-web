@@ -33,3 +33,9 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+next.config.js
+package-lock.json
+postcss.config.js
+.gitignore
+webpack.config.js
+.gitignore

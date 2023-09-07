@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
+    "build": "next build && pm2 restart Website",
     "start": "next start",
     "lint": "next lint"
   },
@@ -12,12 +12,25 @@
     "@types/node": "20.5.7",
     "@types/react": "18.2.21",
     "@types/react-dom": "18.2.7",
-    "autoprefixer": "10.4.15",
+    "autoprefixer": "^10.4.15",
+    "axios": "^1.5.0",
+    "date-format": "^4.0.14",
+    "dateformat": "^5.0.3",
+    "debug": "^4.3.4",
+    "dotenv": "^16.3.1",
+    "flowbite-react": "^0.5.0",
+    "javascript-time-ago": "^2.5.9",
     "next": "13.4.19",
-    "postcss": "8.4.28",
+    "node-gyp-build": "^4.6.1",
+    "node-osr": "^1.2.1",
+    "postcss": "^8.4.28",
     "react": "18.2.0",
     "react-dom": "18.2.0",
-    "tailwindcss": "3.3.3",
-    "typescript": "5.2.2"
+    "react-time-ago": "^7.2.1",
+    "sharp": "^0.32.5",
+    "supports-color": "^8.1.1",
+    "tailwindcss": "^3.3.3",
+    "typescript": "5.2.2",
+    "uniqueness-rating-performance": "^1.0.9"
   }
 }
